@@ -22,7 +22,9 @@ const Counter = () => {
 
   return (
     <div className="container">
-      <div className="count">Count: {count}</div>
+      <div className="count">
+        Count: <h3 data-testid="count">{count}</h3>
+      </div>
       <div className="counter-btns">
         <button onClick={increment}>Increment</button>
         <button onClick={decrement}>Decrement</button>
