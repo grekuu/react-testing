@@ -17,7 +17,7 @@ const Counter = () => {
   }
 
   function switchSigns() {
-    setCount(count * -1);
+    setCount((prev) => prev * -1);
   }
 
   return (
