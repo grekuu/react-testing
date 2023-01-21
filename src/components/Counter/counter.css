@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.count {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.counter-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.counter-btns > button {
+  padding: 5px;
+  cursor: pointer;
+}
